@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="12dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/item_description_txt"
+        android:layout_below="@+id/item_title_txt"
+        android:text="Description"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/item_date_txt"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:text="05.05.2021  13:19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/item_title_txt"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:text="Tittle 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_marginTop="12dp"
+            android:layout_below="@id/item_description_txt"
+            android:background="#222"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+</RelativeLayout>
